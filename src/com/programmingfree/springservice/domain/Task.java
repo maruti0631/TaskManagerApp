@@ -7,7 +7,15 @@ public class Task {
 	 private String task_description; 
 	 private String task_priority;
 	 private String task_status;
-	
+	 private String name;
+	 
+	 
+	 public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public int getTaskId() {
 	  return task_id;
 	 }

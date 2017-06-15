@@ -105,6 +105,7 @@ public class TaskManagerService {
     task.setTaskDescription(rs.getString("task_description"));    
     task.setTaskPriority(rs.getString("task_priority"));
     task.setTaskStatus(rs.getString("task_status"));
+    task.setName(rs.getString("task_name"));
     tasks.add(task);
    }
   } catch (SQLException e) {
